@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lead Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>📋 Lead Management</h2>
+    <p class="subtitle">Capture and manage potential leads efficiently</p>
+
+    <div class="card">
+      <form id="leadForm">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="phone" placeholder="Phone Number" required>
+          <select id="source" required>
+            <option value="">Lead Source</option>
+            <option>Website</option>
+            <option>Facebook</option>
+            <option>Google</option>
+            <option>Referral</option>
+          </select>
+        </div>
+
+        <button type="submit">➕ Add Lead</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Source</th>
+            <th>Date & Time</th>
+          </tr>
+        </thead>
+        <tbody id="leadTable"></tbody>
+      </table>
+    </div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
