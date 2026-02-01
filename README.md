@@ -34,9 +34,9 @@ No frameworks were used on the frontend to keep things simple and easy to unders
 - backend/ – Server, routes, and data handling
 - How to Run the Project Locally
 Clone the repository
-First, open the terminal and go to the backend folder:
+Open a terminal and go to the backend folder, then run:
 cd backend
 npm install
 npm start
-
-Open the frontend files in a browser (or use Live Server)
+This will start the backend server.
+Open the frontend files in your browser (or use Live Server) to see the app in action
