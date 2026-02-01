@@ -14,7 +14,7 @@ The goal of this project was to practice frontend basics, backend APIs, and conn
 I focused more on (clarity and correctness) rather than adding too many features.
 
 
-##Tech stack used
+## Tech stack used
 
 **Frontend**
 - HTML
@@ -30,3 +30,13 @@ No frameworks were used on the frontend to keep things simple and easy to unders
 
 ## How the project is structured
 
+- frontend/ – UI, form handling, and API calls
+- backend/ – Server, routes, and data handling
+- How to Run the Project Locally
+Clone the repository
+First, open the terminal and go to the backend folder:
+cd backend
+npm install
+npm start
+
+Open the frontend files in a browser (or use Live Server)
